@@ -1,0 +1,156 @@
+body, html {
+    height: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body { 
+    height: 100%; 
+    background-image: url("https://mgcreativedesign.files.wordpress.com/2014/11/website-design-background.png");
+    background-color : gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    margin-right:1%;
+}
+.header ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: bold;
+    
+}
+.header li {
+    float:left;
+}
+.header li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 40px 19px;
+    text-decoration: none;
+}
+.header li a:hover{
+    background-color:#111;
+}
+.social{
+    float:right !important;
+    margin-top:1%;
+    
+    padding-right:3%;
+    
+    margin-right:4%;
+    
+    height:0px;
+    width:0px;
+    position:relative;
+    top:-20px;
+}
+
+.social img{
+    width:50px;
+    height:50px;
+}
+
+.logo{
+    padding: 50px 50px;
+    float:left;
+    background-image: url("http://i.imgur.com/9bHKfIh.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+}
+
+.pic img{
+    border:1px solid black;
+    margin-left:3%;
+    margin-top:11%;
+    border-radius:50%;
+    height:300px;
+    width:300px;
+    
+}
+.container{
+    width: 388px;
+    height: 60px;
+    position: relative;
+}
+.bg_info{
+    position:absolute;
+    top:396px;
+    left:73px;
+    width:388px;
+    height:60px;
+    background-color:black;
+    opacity:0.5;
+    z-index: 0;
+}
+.info{
+    position:absolute;
+    width:388px;
+    margin-left:73px;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px black;
+    color: white;
+    z-index: 10;
+    text-align: center;
+}
+.w3-content{
+    width:100%;
+    margin-left:85%;
+    margin-top:0px;
+    border:2px solid black;
+}
+.w3-tooltip, .w3-display-container {
+    position: relative;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+.container{
+    width:733px;
+    position:relative;
+}
+.container .Slide_bt {
+    display: none;
+}
+.container:hover .Slide_bt {
+    display: inline;
+}
